@@ -2,7 +2,6 @@ from typing import Annotated
 from fastapi import FastAPI, Form
 from barjakoub.generate_input import Input
 from barjakoub.gmaps_api import nearby_search
-import uvicorn
 
 app = FastAPI()
 

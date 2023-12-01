@@ -17,5 +17,6 @@
 __pycache__/
 # Ignored by the build system
 /setup.cfg
-server.py
+# Just example
 readme.md
+simple_request.py

@@ -73,3 +73,23 @@ ___
   This method required two argument `headers` and `body`. You can simplify pass `headers` parameter by generating headers with `Preference.create_headers_req()` and pass the `body` parameter by calling the instance method **`instance_name.create_body_req()`**. This will generate a request body based on instance data.
 
   Then, this method returns the results of places near from user's location.
+___
+### Run in Local Development
+To run this example code, just do the followinf steps:
+1. Clone this repository
+
+    ```git
+    git clone https://github.com/barjakoub/api-with-python.git
+    ```
+2. Install dependencies
+
+    ```python
+    pip install -r requirements.txt
+    ```
+3. Run the server
+
+    ```
+    uvicorn --reload main:app
+    ```
+
+> Make sure you've installed at minimum 4 dependencies/packages: `uvicorn`, `fastapi`, `requests`, and `python-multipart`
