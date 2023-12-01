@@ -52,9 +52,8 @@ class Input:
       NOTE: minta api key pada Fatkhur yaa
   '''
   def create_headers_req():
-    # API_KEY_MINTA_FATKHUR_YAA
     return {
       'Content-Type': 'application/json',
-      'X-Goog-Api-Key': 'AIzaSyCTdgJ-2dS-fitZL31eZcVxKA0DwximKyw', 
+      'X-Goog-Api-Key': 'API_KEY_MINTA_FATKHUR_YAA', 
       'X-Goog-FieldMask': 'places.displayName,places.rating,places.userRatingCount,places.priceLevel'
     }
