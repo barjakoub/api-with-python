@@ -1,0 +1,5 @@
+runtime: python312
+
+service: gmaps-api
+
+entrypoint: uvicorn --port :$PORT --workers 2 main:app
